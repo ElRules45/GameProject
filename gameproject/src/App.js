@@ -5,7 +5,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <section className="hero is-info is-fullheight">
+      <section className="hero is-info is-large">
         <div className="hero-head">
           <nav className="navbar">
             <div className="container">
@@ -27,6 +27,14 @@ class App extends Component {
                   <a className="navbar-item">
                     Documentation
                   </a>
+                  <span className="navbar-item">
+                    <a className="button is-info is-inverted">
+                      <span className="icon">
+                        <i className="fab fa-github"></i>
+                      </span>
+                      <span>Download</span>
+                    </a>
+                  </span>
                 </div>
               </div>
             </div>
@@ -35,11 +43,11 @@ class App extends Component {
 
         <div className="hero-body">
           <div className="container has-text-centered">
-            <p className="title is-1">
-              Select your GAME
+            <p className="title">
+              Title
             </p>
-            <p className="subtitle is-4">
-              ESD GAME
+            <p className="subtitle">
+              Subtitle
             </p>
           </div>
         </div>
