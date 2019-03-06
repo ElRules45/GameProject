@@ -6,6 +6,7 @@ class App extends Component {
   render() {
     return (
       <section className="hero is-info is-large">
+      test
         <div className="hero-head">
           <nav className="navbar">
             <div className="container">
